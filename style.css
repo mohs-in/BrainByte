@@ -1,0 +1,28 @@
+:root{
+   background-color: #dadfe8;
+}
+:default{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 2fr 0.3fr;
+    column-gap: 5px;
+    background-color: #004c9b;
+    max-height: 100px;
+}
+
+img{
+    height: 5%;
+    width: 5%;
+    border-radius: 50%;
+    padding: 1%;
+}
+
+.title {
+    color: #e5e7eb;
+    align-items:start;
+}
