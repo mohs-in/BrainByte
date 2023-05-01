@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
+
 :root{
    background-color: #dadfe8;
 }
-:default{
+
+* {
     margin: 0;
     padding: 0;
+    outline: 0;
 }
 
 .navbar{
@@ -25,4 +30,8 @@ img{
 .title {
     color: #e5e7eb;
     align-items:start;
+    font-family: Montserrat;
+    letter-spacing: 5px;
+    margin-right: 5px;
+    -ms-grid-column-align: center;
 }
